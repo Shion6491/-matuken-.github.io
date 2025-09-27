@@ -1,0 +1,30 @@
+.mainColumn {
+    width: 100%;       /* 全体幅 */
+    display: flex;     
+    justify-content: center; /* 中身を中央に寄せる */
+}
+
+.mainColumnProfile {
+    width: 60%;
+    padding: 0 2rem;
+    background-image: url(../src/image/bgprofile.jpeg);
+    background-repeat: repeat;
+    text-align: center; /* 内部の文字や要素を中央寄せ */
+}
+
+.profileBodyItem {
+    display: flex;
+    justify-content: center; /* 横並びの中央寄せ */
+    align-items: flex-start; /* 縦方向は上揃え */
+    margin: 2rem 0;
+}
+
+.profileBodyItemLabel {
+    width: 20%;
+    text-align: center;
+}
+
+.profileBodyItemValue {
+    width: 80%;
+    text-align: center;
+}

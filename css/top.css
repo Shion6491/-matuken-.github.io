@@ -1,0 +1,62 @@
+.mainColumnTop {
+    padding: 0 10%;
+    background-image: url(../src/image/bgtop.jpeg), url(../src/image/bgtop.jpeg);
+    background-repeat: repeat;
+    background-size: 430px auto;
+}
+
+.mainColumnTop h1 {
+    text-align: center;      /* タイトルを中央に */
+    margin: 2rem 0;          /* 上下余白調整 */
+    line-height: 1.2;        /* 行間を少し詰める */
+}
+
+.topBody {
+    display: flex;
+    gap: 2%;                  /* 左右の余白を少し追加 */
+}
+
+.topBodyLeft {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  /* 左寄せ */
+    gap: 0.5rem;              /* 上下の間隔を狭く */
+}
+
+.topBodyLeft img.topProfileImg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.topProfileItem {
+    margin: 0.2rem 0;        /* 上下余白を小さく */
+    line-height: 1.2;        /* 行間を詰める */
+    width: 100%;
+}
+
+.topBodyRight {
+    width: 60%;
+}
+
+.topInfoHeader {
+    text-align: center;
+    margin-bottom: 2rem;     /* 下の余白を少なめ */
+}
+
+.topInfoItem {
+    border-top: 0.5px solid #000000;
+    font-weight: bold;
+    padding: 0.5rem 0;       /* 上下パディングを狭める */
+    line-height: 1.2;        /* 行間を詰める */
+}
+
+.textEmphasized {
+    color: rgb(232, 38, 38);
+}
+
+.topInfoItemBody {
+    margin-left: 1rem;        /* インデントを小さめ */
+    line-height: 1.2;         /* 行間を詰める */
+}
